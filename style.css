@@ -345,5 +345,38 @@ h1{
     height:48px;
 
 }
+.career-line{
+
+    padding:10px;
+
+    border-bottom:1px solid #ececec;
+
+}
+
+#more-clubs{
+
+    margin-top:15px;
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#b30018;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+.space{
+
+    width:20px;
 
 }
