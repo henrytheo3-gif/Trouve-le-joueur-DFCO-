@@ -379,4 +379,18 @@ h1{
 
     width:20px;
 
+   .used{
+
+    opacity:.35;
+
+}
+
+.backspace{
+
+    background:#222;
+
+    color:white;
+
+}
+
 }
