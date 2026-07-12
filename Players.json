@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "name": "JULIO TAVARES",
+    "position": "Attaquant",
+    "nationality": "Cap-Vert",
+    "difficulty": 1,
+    "career": [
+      "2008-2012 | FC Bourg-Péronnas",
+      "2012-2020 | Dijon FCO",
+      "2020-2022 | Al Faisaly",
+      "2022-2024 | Al Raed",
+      "2024-2025 | Al-Dira FC",
+      "2025- | Dijon FCO"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "JORDAN MARIE",
+    "position": "Milieu",
+    "nationality": "France",
+    "difficulty": 1,
+    "career": [
+      "2009- | Dijon FCO"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "BAPTISTE REYNET",
+    "position": "Gardien",
+    "nationality": "France",
+    "difficulty": 1,
+    "career": [
+      "2007-2011 | Martigues",
+      "2011-2013 | Dijon FCO",
+      "2013-2015 | Lorient",
+      "2015-2018 | Dijon FCO",
+      "2018-2020 | Toulouse",
+      "2020-2023 | Nîmes Olympique"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "FREDERIC SAMMARITANO",
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "difficulty": 1,
+    "career": [
+      "2006-2010 | Vannes",
+      "2010-2011 | AC Ajaccio",
+      "2011-2015 | AJ Auxerre",
+      "2015-2021 | Dijon FCO"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "JOHAN GASTIEN",
+    "position": "Milieu",
+    "nationality": "France",
+    "difficulty": 1,
+    "career": [
+      "2008-2011 | Saint-Étienne",
+      "2011-2017 | Dijon FCO",
+      "2017- | Clermont Foot"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "NAIM SLITI",
+    "position": "Ailier",
+    "nationality": "Tunisie",
+    "difficulty": 2,
+    "career": [
+      "2010-2017 | Lille OSC",
+      "2013-2014 | Paris FC",
+      "2017-2021 | Dijon FCO",
+      "2021-2023 | Al-Ettifaq",
+      "2023- | Club Africain"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MAMA BALDE",
+    "position": "Attaquant",
+    "nationality": "Guinée-Bissau",
+    "difficulty": 2,
+    "career": [
+      "2014-2019 | Sporting CP",
+      "2017-2018 | Aves",
+      "2019-2021 | Dijon FCO",
+      "2021-2023 | Troyes",
+      "2023- | Olympique Lyonnais"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "FOUAD CHAFIK",
+    "position": "Défenseur",
+    "nationality": "Maroc",
+    "difficulty": 2,
+    "career": [
+      "2012-2014 | Laval",
+      "2014-2018 | Dijon FCO",
+      "2018-2023 | Dijon FCO"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "VALENTIN ROSIER",
+    "position": "Défenseur",
+    "nationality": "France",
+    "difficulty": 2,
+    "career": [
+      "2015-2019 | Dijon FCO",
+      "2019-2023 | Sporting CP",
+      "2020-2021 | Beşiktaş",
+      "2023- | OGC Nice"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "WESLEY SAID",
+    "position": "Attaquant",
+    "nationality": "France",
+    "difficulty": 2,
+    "career": [
+      "2013-2018 | Rennes",
+      "2017-2018 | Dijon FCO",
+      "2018-2021 | Dijon FCO",
+      "2021- | RC Lens"
+    ]
+  }
+]
