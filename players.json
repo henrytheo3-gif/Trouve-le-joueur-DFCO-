@@ -1,55 +1,1307 @@
-players_db = [
+[
   {
     "id": 1,
     "name": "JULIO TAVARES",
+    "difficulty": 1,
     "position": "Attaquant",
     "nationality": "Cap-Vert",
-    "difficulty": 1,
     "career": [
-      "2008-2012 | Bourg-Péronnas",
-      "2012-2020 | Dijon FCO",
-      "2020-2022 | Al-Faisaly FC",
-      "2022-2024 | Al-Raed FC",
-      "2024-2025 | Al-Dira FC",
-      "2025- | Dijon FCO"
+      "FC Bourg-Péronnas",
+      "Dijon FCO",
+      "Al-Faisaly",
+      "Al-Raed",
+      "Al-Diraiyah",
+      "Dijon FCO"
     ]
   },
   {
     "id": 2,
     "name": "JORDAN MARIE",
+    "difficulty": 1,
     "position": "Milieu",
     "nationality": "France",
-    "difficulty": 1,
     "career": [
-      "2012- | Dijon FCO"
+      "AS Genlis",
+      "Dijon FCO"
     ]
   },
-  # ... [Les entrées intermédiaires de 3 à 98 sont stockées dans le fichier généré] ...
   {
-    "id": 99,
-    "name": "RAPHAEL CACERES",
+    "id": 3,
+    "name": "BAPTISTE REYNET",
+    "difficulty": 1,
+    "position": "Gardien",
+    "nationality": "France",
+    "career": [
+      "Martigues",
+      "Dijon FCO",
+      "Lorient",
+      "Dijon FCO",
+      "Toulouse",
+      "Nîmes Olympique"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "FREDERIC SAMMARITANO",
+    "difficulty": 1,
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "career": [
+      "Vannes",
+      "AC Ajaccio",
+      "AJ Auxerre",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "JOHAN GASTIEN",
+    "difficulty": 1,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Saint-Étienne",
+      "Dijon FCO",
+      "Clermont Foot"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "LOIS DIONY",
+    "difficulty": 1,
     "position": "Attaquant",
     "nationality": "France",
-    "difficulty": 2,
     "career": [
-      "2010-2011 | Luzenac AP",
-      "2011-2013 | Dijon FCO",
-      "2013-2014 | SV Zulte Waregem",
-      "2014-2016 | FC Sochaux"
+      "AS Monaco",
+      "Rouen",
+      "Moulins",
+      "Dijon FCO",
+      "Saint-Étienne",
+      "Bristol City",
+      "Angers SCO",
+      "Red Star"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "NAIM SLITI",
+    "difficulty": 2,
+    "position": "Ailier",
+    "nationality": "Tunisie",
+    "career": [
+      "Lille OSC",
+      "Paris FC",
+      "Dijon FCO",
+      "Al-Ettifaq",
+      "Club Africain"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "VALENTIN ROSIER",
+    "difficulty": 2,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Sporting CP",
+      "Beşiktaş",
+      "OGC Nice"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "FOUAD CHAFIK",
+    "difficulty": 2,
+    "position": "Défenseur",
+    "nationality": "Maroc",
+    "career": [
+      "Laval",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "MICKAEL ALPHONSE",
+    "difficulty": 2,
+    "position": "Défenseur",
+    "nationality": "Martinique",
+    "career": [
+      "Andrézieux",
+      "Le Mans",
+      "Amiens",
+      "Dijon FCO",
+      "Ajaccio"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "BRUNO ECUELE MANGA",
+    "difficulty": 2,
+    "position": "Défenseur",
+    "nationality": "Gabon",
+    "career": [
+      "FC 105",
+      "Angers SCO",
+      "Lorient",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "CHRISTOPHER JULLIEN",
+    "difficulty": 2,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Auxerre",
+      "Dijon FCO",
+      "Toulouse",
+      "Celtic",
+      "Montpellier"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "FLORENT BALMONT",
+    "difficulty": 2,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Lyon",
+      "Toulouse",
+      "Nice",
+      "Lille",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "ROMAIN AMALFITANO",
+    "difficulty": 2,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Évian",
+      "Reims",
+      "Newcastle",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "BENJAMIN JEANNOT",
+    "difficulty": 2,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Nancy",
+      "Lorient",
+      "Dijon FCO",
+      "Caen"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "MAMA BALDE",
+    "difficulty": 2,
+    "position": "Attaquant",
+    "nationality": "Guinée-Bissau",
+    "career": [
+      "Sporting CP",
+      "Desportivo Aves",
+      "Dijon FCO",
+      "Troyes",
+      "Olympique Lyonnais"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "MOUNIR CHOUIAR",
+    "difficulty": 2,
+    "position": "Ailier",
+    "nationality": "France",
+    "career": [
+      "Lens",
+      "Dijon FCO",
+      "İstanbul Başakşehir",
+      "Ludogorets"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "CHANG-HOON KWON",
+    "difficulty": 2,
+    "position": "Milieu offensif",
+    "nationality": "Corée du Sud",
+    "career": [
+      "Suwon Bluewings",
+      "Dijon FCO",
+      "Fribourg",
+      "Gimcheon Sangmu",
+      "Suwon FC"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "DIDIER NDONG",
+    "difficulty": 3,
+    "position": "Milieu",
+    "nationality": "Gabon",
+    "career": [
+      "CS Sfaxien",
+      "Lorient",
+      "Sunderland",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "RUNAR ALEX RUNARSSON",
+    "difficulty": 3,
+    "position": "Gardien",
+    "nationality": "Islande",
+    "career": [
+      "KR Reykjavik",
+      "Nordsjælland",
+      "Dijon FCO",
+      "Arsenal"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "ALFRED GOMIS",
+    "difficulty": 3,
+    "position": "Gardien",
+    "nationality": "Sénégal",
+    "career": [
+      "Torino",
+      "Cesena",
+      "Bologne",
+      "SPAL",
+      "Dijon FCO",
+      "Rennes"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "ERIC BAUTHEAC",
+    "difficulty": 3,
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "career": [
+      "Cannes",
+      "Dijon FCO",
+      "Nice",
+      "Lille"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "FLORENT MOLLET",
+    "difficulty": 3,
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Créteil",
+      "Metz",
+      "Montpellier",
+      "Schalke 04",
+      "Nantes"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "CEDRIC VARRAULT",
+    "difficulty": 3,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Cannes",
+      "Nice",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "ROMAIN PHILIPPOTEAUX",
+    "difficulty": 3,
+    "position": "Ailier",
+    "nationality": "France",
+    "career": [
+      "Pontivy",
+      "Le Poiré-sur-Vie",
+      "Dijon FCO",
+      "Auxerre",
+      "Nîmes"
+    ]
+    [
+  {
+    "id": 26,
+    "name": "ANTHONY BELMONTE",
+    "difficulty": 3,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Istres",
+      "Dijon FCO",
+      "Grenoble",
+      "Le Mans",
+      "Panionios"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "STEVEN PAULLE",
+    "difficulty": 3,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Compiègne",
+      "Colmar",
+      "Dijon FCO",
+      "Châteauroux",
+      "Pau FC"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "CEDRIC YAMBERE",
+    "difficulty": 3,
+    "position": "Défenseur",
+    "nationality": "Centrafrique",
+    "career": [
+      "Bordeaux",
+      "Anzhi Makhachkala",
+      "Dijon FCO",
+      "APOEL",
+      "Paphos"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "WESLEY LAUTOA",
+    "difficulty": 3,
+    "position": "Défenseur",
+    "nationality": "Nouvelle-Calédonie",
+    "career": [
+      "Mont-Dore",
+      "Sedan",
+      "Lorient",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "YOHANN RIVIERE",
+    "difficulty": 3,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Guingamp",
+      "Carquefou",
+      "Vannes",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "JESSY PI",
+    "difficulty": 3,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Monaco",
+      "Troyes",
+      "Dijon FCO",
+      "Caen"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "BRYAN SOUMARE",
+    "difficulty": 3,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Bourg-en-Bresse",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "ROGER ASSALE",
+    "difficulty": 3,
+    "position": "Ailier",
+    "nationality": "Côte d'Ivoire",
+    "career": [
+      "ASEC Mimosas",
+      "Young Boys",
+      "Leganés",
+      "Dijon FCO",
+      "Werder Brême"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "BERSANT CELINA",
+    "difficulty": 3,
+    "position": "Milieu offensif",
+    "nationality": "Kosovo",
+    "career": [
+      "Manchester City",
+      "Twente",
+      "Ipswich",
+      "Swansea",
+      "Dijon FCO",
+      "Stoke City"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "STEPHY MAVIDIDI",
+    "difficulty": 3,
+    "position": "Attaquant",
+    "nationality": "Angleterre",
+    "career": [
+      "Arsenal",
+      "Juventus",
+      "Dijon FCO",
+      "Montpellier",
+      "Leicester City"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "YASSINE BENZIA",
+    "difficulty": 3,
+    "position": "Milieu offensif",
+    "nationality": "Algérie",
+    "career": [
+      "Lyon",
+      "Lille",
+      "Fenerbahçe",
+      "Olympiakos",
+      "Dijon FCO",
+      "Qarabag"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "GLODY NGONDA",
+    "difficulty": 3,
+    "position": "Défenseur",
+    "nationality": "RD Congo",
+    "career": [
+      "TP Mazembe",
+      "Dijon FCO",
+      "Riga FC"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "OUSSAMA HADDADI",
+    "difficulty": 3,
+    "position": "Défenseur",
+    "nationality": "Tunisie",
+    "career": [
+      "Club Africain",
+      "Dijon FCO",
+      "Yeni Malatyaspor"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "PAPE CHEIKH DIOP",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "Sénégal",
+    "career": [
+      "Celta Vigo",
+      "Lyon",
+      "Dijon FCO",
+      "Elche"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "SENOU COULIBALY",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Mali",
+    "career": [
+      "Dijon FCO",
+      "Oldham Athletic"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "DANIEL CONGRE",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Toulouse",
+      "Montpellier",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "SATURNIN ALLAGBE",
+    "difficulty": 4,
+    "position": "Gardien",
+    "nationality": "Bénin",
+    "career": [
+      "Niort",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "BOBBY ALLAIN",
+    "difficulty": 4,
+    "position": "Gardien",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Olympiakos",
+      "Grenoble"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "AURELIEN SCHEIDLER",
+    "difficulty": 4,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Nancy",
+      "Dijon FCO",
+      "Bari"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "AURELIEN NGUIAMBA",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Nancy",
+      "Spezia",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "WALID NASSI",
+    "difficulty": 4,
+    "position": "Ailier",
+    "nationality": "France",
+    "career": [
+      "Toulouse",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "ZARGO TOURE",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Sénégal",
+    "career": [
+      "Boulogne",
+      "Le Havre",
+      "Lorient",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "ARNOLD BOUKA MOUTOU",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Congo",
+    "career": [
+      "Amiens",
+      "Orléans",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "ADAMA SOUMAORO",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Lille",
+      "Genoa",
+      "Bologne",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "BRYAN KONATE",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO"
+    ]
+  }
+][
+  {
+    "id": 51,
+    "name": "PIERRE LEES-MELOU",
+    "difficulty": 3,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Langon",
+      "Dijon FCO",
+      "Créteil",
+      "Le Mans",
+      "Dijon FCO",
+      "Nice",
+      "Norwich City",
+      "Brest"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "BENJAMIN LECOMTE",
+    "difficulty": 3,
+    "position": "Gardien",
+    "nationality": "France",
+    "career": [
+      "Lorient",
+      "Dijon FCO",
+      "Lorient",
+      "Montpellier",
+      "Monaco"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "BRICE JOVIAL",
+    "difficulty": 4,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Alès",
+      "Dijon FCO",
+      "Le Havre",
+      "Beauvais"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "SEBASTIEN RIBAS",
+    "difficulty": 4,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Monaco",
+      "Interblock",
+      "Dijon FCO",
+      "Metz",
+      "Charleroi"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "ABDOULAYE BAMBA",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Côte d'Ivoire",
+    "career": [
+      "Juventus",
+      "Dijon FCO",
+      "Angers SCO"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "BENJAMIN CORGNET",
+    "difficulty": 3,
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "career": [
+      "Clermont",
+      "Dijon FCO",
+      "Lorient",
+      "Saint-Étienne"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "THOMAS GUERBERT",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Auxerre",
+      "Sochaux"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "FABRICE BEGEORGI",
+    "difficulty": 4,
+    "position": "Ailier",
+    "nationality": "France",
+    "career": [
+      "Istres",
+      "Dijon FCO",
+      "Martigues"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "SAMUEL SOUPRAYEN",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Rennes",
+      "Dijon FCO",
+      "Auxerre"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "ZAKARIA DIALLO",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Sénégal",
+    "career": [
+      "Beauvais",
+      "Dijon FCO",
+      "Brest",
+      "Montréal"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "ERIC TIE BI",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "Côte d'Ivoire",
+    "career": [
+      "Lens",
+      "Dijon FCO",
+      "Pau FC"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "PIERRE LEMONNIER",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Guingamp",
+      "Dijon FCO",
+      "Le Mans",
+      "Nancy"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "JEREMIE BELA",
+    "difficulty": 4,
+    "position": "Ailier",
+    "nationality": "France",
+    "career": [
+      "Lens",
+      "Dijon FCO",
+      "Birmingham City"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "YOUNES BNOU MARZOUK",
+    "difficulty": 5,
+    "position": "Attaquant",
+    "nationality": "Maroc",
+    "career": [
+      "Juventus",
+      "Dijon FCO",
+      "Lugano"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "MARVIN MARTIN",
+    "difficulty": 3,
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "career": [
+      "Sochaux",
+      "Lille",
+      "Dijon FCO",
+      "Reims"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "YOANN BARBET",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Niort",
+      "Dijon FCO",
+      "Brentford",
+      "Reading",
+      "Bordeaux"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "CEDRIC CARRASSO",
+    "difficulty": 5,
+    "position": "Gardien",
+    "nationality": "France",
+    "career": [
+      "Marseille",
+      "Toulouse",
+      "Bordeaux",
+      "Galatasaray",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "MEHDI ABEID",
+    "difficulty": 3,
+    "position": "Milieu",
+    "nationality": "Algérie",
+    "career": [
+      "Arsenal",
+      "Newcastle",
+      "Panathinaïkos",
+      "Dijon FCO",
+      "Al-Nasr"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "XEKA",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "Portugal",
+    "career": [
+      "Braga",
+      "Lille",
+      "Rennes",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "MICKAEL LE BIHAN",
+    "difficulty": 4,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Le Havre",
+      "Nice",
+      "Auxerre",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "ABOUBAKAR KAMARA",
+    "difficulty": 4,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Monaco",
+      "Fulham",
+      "Dijon FCO",
+      "Aris Salonique"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "MARVIN SENAYA",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Strasbourg",
+      "Sochaux",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "JACQUES MAGHOMA",
+    "difficulty": 5,
+    "position": "Milieu",
+    "nationality": "RD Congo",
+    "career": [
+      "Tottenham",
+      "Burton Albion",
+      "Birmingham City",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "JORDAN MARIOTTO",
+    "difficulty": 5,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Belfort",
+      "Besançon"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "MICKAEL TACALFRED",
+    "difficulty": 5,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Louhans-Cuiseaux",
+      "Dijon FCO",
+      "Reims"
+    ]
+  }
+][
+  {
+    "id": 76,
+    "name": "DAVID LINARES",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Martigues",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "PIERRE-EMERICK AUBAMEYANG",
+    "difficulty": 2,
+    "position": "Attaquant",
+    "nationality": "Gabon",
+    "career": [
+      "AC Milan",
+      "Dijon FCO",
+      "Lille",
+      "Monaco",
+      "Saint-Étienne",
+      "Borussia Dortmund",
+      "Arsenal",
+      "FC Barcelone",
+      "Chelsea",
+      "Marseille",
+      "Al-Qadsiah"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "YOANN GOURCUFF",
+    "difficulty": 2,
+    "position": "Milieu offensif",
+    "nationality": "France",
+    "career": [
+      "Rennes",
+      "Dijon FCO",
+      "Milan",
+      "Bordeaux",
+      "Lyon",
+      "Rennes"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "VEDAD IBISEVIC",
+    "difficulty": 3,
+    "position": "Attaquant",
+    "nationality": "Bosnie-Herzégovine",
+    "career": [
+      "Paris Saint-Germain",
+      "Dijon FCO",
+      "Alemannia Aachen",
+      "Hoffenheim",
+      "Stuttgart",
+      "Hertha Berlin",
+      "Schalke 04"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "SACHA BOEY",
+    "difficulty": 2,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Rennes",
+      "Dijon FCO",
+      "Galatasaray",
+      "Bayern Munich"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "WILLIAM REMY",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Caen",
+      "Dijon FCO",
+      "Lens",
+      "Montpellier"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "ABDOULAYE MEITE",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Côte d'Ivoire",
+    "career": [
+      "Marseille",
+      "Bolton",
+      "West Bromwich",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "STEPHANE MANGIONE",
+    "difficulty": 5,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Nancy",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "THOMAS MANGANI",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Monaco",
+      "Ajaccio",
+      "Chievo",
+      "Dijon FCO",
+      "Angers"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "RUDY RIEU",
+    "difficulty": 5,
+    "position": "Gardien",
+    "nationality": "France",
+    "career": [
+      "Toulouse",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "CEDRIC MOUKOURI",
+    "difficulty": 5,
+    "position": "Défenseur",
+    "nationality": "Cameroun",
+    "career": [
+      "Dijon FCO",
+      "Valenciennes"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "ROMAIN BEDEL",
+    "difficulty": 5,
+    "position": "Gardien",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Le Puy"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "ANTOINE RABILLARD",
+    "difficulty": 5,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "PSG",
+      "Dijon FCO",
+      "Béziers"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "JONATHAN RIVIERE",
+    "difficulty": 3,
+    "position": "Attaquant",
+    "nationality": "France",
+    "career": [
+      "Saint-Étienne",
+      "Toulouse",
+      "Monaco",
+      "Newcastle",
+      "Osasuna",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "YOANN COURT",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Troyes",
+      "Dijon FCO",
+      "Brest",
+      "Caen"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "JULIEN VANDAM",
+    "difficulty": 5,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Lille",
+      "Dijon FCO",
+      "Caen"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "PIERRE BENGTSSON",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Suède",
+    "career": [
+      "AIK",
+      "Mayence",
+      "Bastia",
+      "Dijon FCO",
+      "Djurgårdens IF"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "YOANN BOURILLON",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Rennes",
+      "Paris SG",
+      "Lorient",
+      "Reims",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "ROMAIN GENEVOIS",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Guingamp",
+      "Tours",
+      "Dijon FCO",
+      "Nice"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "BRYAN BERJOUHI",
+    "difficulty": 5,
+    "position": "Milieu",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "JORDAN LOTIES",
+    "difficulty": 5,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Clermont",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "KEVIN SCHUR",
+    "difficulty": 4,
+    "position": "Ailier",
+    "nationality": "France",
+    "career": [
+      "Épinal",
+      "Bastia",
+      "Dijon FCO"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "JONATHAN PANZO",
+    "difficulty": 4,
+    "position": "Défenseur",
+    "nationality": "Angleterre",
+    "career": [
+      "Chelsea",
+      "Monaco",
+      "Dijon FCO",
+      "Nottingham Forest"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "YOHAN ROCHE",
+    "difficulty": 5,
+    "position": "Défenseur",
+    "nationality": "France",
+    "career": [
+      "Dijon FCO",
+      "Annecy"
     ]
   },
   {
     "id": 100,
-    "name": "YASSINE EL KHARROUBI",
-    "position": "Gardien",
-    "nationality": "Maroc",
-    "difficulty": 3,
+    "name": "DIDIER IBRAHIM NDONG",
+    "difficulty": 4,
+    "position": "Milieu",
+    "nationality": "Gabon",
     "career": [
-      "2009-2011 | EA Guingamp",
-      "2011-2012 | Dijon FCO",
-      "2012-2013 | US Quévilly",
-      "2014-2017 | Lokomotiv Plovdiv",
-      "2017-2020 | Wydad AC"
+      "CS Sfaxien",
+      "Lorient",
+      "Sunderland",
+      "Dijon FCO"
     ]
+  }
+]
   }
 ]
