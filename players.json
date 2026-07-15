@@ -336,7 +336,7 @@
       "Auxerre",
       "Nîmes"
     ]
-    [
+    },
   {
     "id": 26,
     "name": "ANTHONY BELMONTE",
@@ -653,8 +653,7 @@
     "career": [
       "Dijon FCO"
     ]
-  }
-][
+  },
   {
     "id": 51,
     "name": "PIERRE LEES-MELOU",
@@ -978,8 +977,7 @@
       "Dijon FCO",
       "Reims"
     ]
-  }
-][
+  },
   {
     "id": 76,
     "name": "DAVID LINARES",
@@ -1301,7 +1299,5 @@
       "Sunderland",
       "Dijon FCO"
     ]
-  }
-]
   }
 ]
