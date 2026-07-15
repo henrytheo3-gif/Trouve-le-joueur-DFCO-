@@ -27,7 +27,7 @@ window.onload = async () => {
 
     try {
         // 2. Récupération du fichier players.json
-        const response = await fetch("players.json");
+        const response = await fetch("./players.json");
         
         if (!response.ok) {
             throw new Error(`Erreur lors du chargement du fichier JSON : ${response.status}`);
