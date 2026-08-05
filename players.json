@@ -37,7 +37,8 @@
       "Lorient",
       "Dijon FCO",
       "Toulouse",
-      "Nîmes Olympique"
+      "Nîmes Olympique",
+      "Dijon FCO"
     ]
   },
   {
@@ -336,7 +337,7 @@
       "Auxerre",
       "Nîmes"
     ]
-    },
+  },
   {
     "id": 26,
     "name": "ANTHONY BELMONTE",
@@ -662,9 +663,6 @@
     "nationality": "France",
     "career": [
       "Langon",
-      "Dijon FCO",
-      "Créteil",
-      "Le Mans",
       "Dijon FCO",
       "Nice",
       "Norwich City",
@@ -1006,7 +1004,9 @@
       "FC Barcelone",
       "Chelsea",
       "Marseille",
-      "Al-Qadsiah"
+      "Al-Qadsiah",
+      "Marseille",
+      "Deportivo La Corogne"
     ]
   },
   {
@@ -1017,11 +1017,11 @@
     "nationality": "France",
     "career": [
       "Rennes",
-      "Dijon FCO",
       "Milan",
       "Bordeaux",
       "Lyon",
-      "Rennes"
+      "Rennes",
+      "Dijon FCO"
     ]
   },
   {
@@ -1285,19 +1285,6 @@
     "career": [
       "Dijon FCO",
       "Annecy"
-    ]
-  },
-  {
-    "id": 100,
-    "name": "DIDIER IBRAHIM NDONG",
-    "difficulty": 4,
-    "position": "Milieu",
-    "nationality": "Gabon",
-    "career": [
-      "CS Sfaxien",
-      "Lorient",
-      "Sunderland",
-      "Dijon FCO"
     ]
   }
 ]
